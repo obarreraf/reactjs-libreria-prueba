@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'reactlibreria';
+import { Button, ContainerFlex } from 'reactlibreria';
 
 function App() {
   return (
     <div className="App">
-     <Button>Click</Button>
+      <ContainerFlex 
+        flexDirection="colum" 
+        justifyContent="space-evenly" 
+        alignItems="center"
+        height="100vh"
+        gap="8px"
+      >fsdfds
+      </ContainerFlex>
     </div>
   );
 }
